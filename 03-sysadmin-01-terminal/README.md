@@ -76,3 +76,8 @@
 
 ---
 Решение ДЗ.
+------
+1. VirtualBox установил.
+```bash
+brew install virtualbox
+```
