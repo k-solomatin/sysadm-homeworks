@@ -81,8 +81,24 @@
 ```bash
 brew install virtualbox
 ```
-1. Vagrant установил
+2. Vagrant установил
 ```bash
 brew install vagrant
 brew install vagrant-manager
+```
+3. Работаю на маке - поэтому iTerm2
+4. Виртуальную машину создал, базовые клманды выполнил
+```bash
+~/vagrant ❯ vagrant up                                                                   
+Bringing machine 'default' up with 'virtualbox' provider...
+==> default: Checking if box 'bento/ubuntu-20.04' version '202107.28.0' is up to date...
+==> default: Resuming suspended VM...
+==> default: Booting VM...
+==> default: Waiting for machine to boot. This may take a few minutes...
+    default: SSH address: 127.0.0.1:2222
+    default: SSH username: vagrant
+    default: SSH auth method: private key
+==> default: Machine booted and ready!
+==> default: Machine already provisioned. Run `vagrant provision` or use the `--provision`
+==> default: flag to force provisioning. Provisioners marked to run always will still run.
 ```
