@@ -176,3 +176,18 @@ HISTFILESIZE
 ignoreboth — не записывать команду, которая начинается с пробела, либо команду, которая дублирует предыдущую.
 # export HISTCONTROL=ignoreboth.
 ```
+
+
+10. Создать 100000 файлов
+```
+vagrant@vagrant:~$ touch file{1..100000}
+vagrant@vagrant:~$ ls | wc -l
+100000
+vagrant@vagrant:~$
+```
+Создать 300000 файлов
+```
+vagrant@vagrant:~$ touch file{1..300000}
+-bash: /usr/bin/touch: Argument list too long
+```
+11. 
