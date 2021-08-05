@@ -107,3 +107,9 @@ Bringing machine 'default' up with 'virtualbox' provider...
 ==> default: Attempting graceful shutdown of VM...
 ```
 5. Ознакомился.
+По умолчанию для виртуалки хар-ки такие :
+```
+Оперативная память - 1гб
+Видео - 4мб
+Диск - 64гб
+```
