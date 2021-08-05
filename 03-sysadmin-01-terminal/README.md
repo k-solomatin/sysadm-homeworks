@@ -101,8 +101,8 @@ Bringing machine 'default' up with 'virtualbox' provider...
 ==> default: Machine booted and ready!
 ==> default: Machine already provisioned. Run `vagrant provision` or use the `--provision`
 ==> default: flag to force provisioning. Provisioners marked to run always will still run.
-~/vagrant ❯ vagrant suspend                                                                              
+~/vagrant ❯ vagrant suspend                                                
 ==> default: Saving VM state and suspending execution...
-~/vagrant ❯ vagrant halt                                                                                                    
+~/vagrant ❯ vagrant halt                                         
 ==> default: Attempting graceful shutdown of VM...
 ```
