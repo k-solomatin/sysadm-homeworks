@@ -103,7 +103,7 @@ Bringing machine 'default' up with 'virtualbox' provider...
 ==> default: flag to force provisioning. Provisioners marked to run always will still run.
 ~/vagrant ❯ vagrant suspend                                                
 ==> default: Saving VM state and suspending execution...
-~/vagrant ❯ vagrant halt                                         
+~/vagrant ❯ vagrant halt      
 ==> default: Attempting graceful shutdown of VM...
 ```
-4.
+5. 
