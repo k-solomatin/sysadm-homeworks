@@ -113,3 +113,51 @@ Bringing machine 'default' up with 'virtualbox' provider...
 Видео - 4мб
 Диск - 64гб
 ```
+6. Для добавления памяти и проца нужно дописать в Vagrantfile :
+```
+config.vm.provider "virtualbox" do |v|
+  v.memory = 2048
+  v.cpus = 4
+end
+```
+7. Практика команд на виртуалке
+```
+~/vagrant ❯ vagrant ssh                                     
+Welcome to Ubuntu 20.04.2 LTS (GNU/Linux 5.4.0-80-generic x86_64)
+
+ * Documentation:  https://help.ubuntu.com
+ * Management:     https://landscape.canonical.com
+ * Support:        https://ubuntu.com/advantage
+
+  System information as of Thu 05 Aug 2021 03:23:24 PM UTC
+
+  System load:  0.0               Processes:             114
+  Usage of /:   2.5% of 61.31GB   Users logged in:       0
+  Memory usage: 14%               IPv4 address for eth0: 10.0.2.15
+  Swap usage:   0%
+
+
+This system is built by the Bento project by Chef Software
+More information can be found at https://github.com/chef/bento
+Last login: Thu Aug  5 09:31:37 2021 from 10.0.2.2
+vagrant@vagrant:~$ date
+Thu 05 Aug 2021 03:23:30 PM UTC
+vagrant@vagrant:~$ ls -lah
+total 2.7M
+drwxr-xr-x 4 vagrant vagrant 2.7M Aug  5 06:14 .
+drwxr-xr-x 3 root    root    4.0K Jul 28 17:50 ..
+-rw------- 1 vagrant vagrant  439 Aug  5 06:28 .bash_history
+-rw-r--r-- 1 vagrant vagrant  220 Jul 28 17:50 .bash_logout
+-rw-r--r-- 1 vagrant vagrant 3.7K Jul 28 17:50 .bashrc
+drwx------ 2 vagrant vagrant 4.0K Jul 28 17:51 .cache
+-rw-r--r-- 1 vagrant vagrant  807 Jul 28 17:50 .profile
+drwx------ 2 vagrant root    4.0K Aug  5 05:44 .ssh
+-rw-r--r-- 1 vagrant vagrant    0 Jul 28 17:51 .sudo_as_admin_successful
+-rw-r--r-- 1 vagrant vagrant    6 Jul 28 17:51 .vbox_version
+-rw-r--r-- 1 root    root     180 Jul 28 17:55 .wget-hsts
+vagrant@vagrant:~$ uptime
+ 15:23:50 up 0 min,  1 user,  load average: 0.00, 0.00, 0.00
+vagrant@vagrant:~$ sudo ntpdate pool.ntp.org
+ 5 Aug 15:24:49 ntpdate[1119]: step time server 194.190.168.1 offset 2.156622 sec
+vagrant@vagrant:~$
+```
