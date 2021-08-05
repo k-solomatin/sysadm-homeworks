@@ -161,3 +161,18 @@ vagrant@vagrant:~$ sudo ntpdate pool.ntp.org
  5 Aug 15:24:49 ntpdate[1119]: step time server 194.190.168.1 offset 2.156622 sec
 vagrant@vagrant:~$
 ```
+8. C разделами bash ознакомился.
+Какой переменной можно задать длину журнала history, и на какой строчке manual это описывается? -
+```
+HISTFILESIZE
+              The maximum number of lines contained in the history file.  When this variable is assigned a value, the history file is truncated, if necessary, by removing the oldest
+              entries, to contain no more than that number of lines.  The default value is 500.  The history file is also truncated to this size after writing it when an interactive
+              shell exits.
+
+```
+
+Что делает директива ignoreboth в bash? -
+```
+ignoreboth — не записывать команду, которая начинается с пробела, либо команду, которая дублирует предыдущую.
+# export HISTCONTROL=ignoreboth.
+```
