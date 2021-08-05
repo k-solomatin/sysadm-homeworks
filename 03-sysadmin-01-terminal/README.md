@@ -81,3 +81,8 @@
 ```bash
 brew install virtualbox
 ```
+1. Vagrant установил
+```bash
+brew install vagrant
+brew install vagrant-manager
+```
