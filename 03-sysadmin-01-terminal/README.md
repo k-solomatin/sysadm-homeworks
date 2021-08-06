@@ -204,6 +204,8 @@ vagrant@vagrant:~$ touch file{1..300000}
 
 12.
 ```
+mkdir /tmp/new_path_directory/
+cp /usr/bin/bash /tmp/new_path_directory/
 export PATH=$PATH:/tmp/new_path_directory/
 
 ```
