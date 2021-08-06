@@ -202,11 +202,11 @@ vagrant@vagrant:~$ touch file{1..300000}
 ```
 11. Истина если файл присутствует или является каталогом.
 
-12.
+12. Добавление переменной
 ```
 mkdir /tmp/new_path_directory/
 cp /usr/bin/bash /tmp/new_path_directory/
-export PATH=$PATH:/tmp/new_path_directory/
+export PATH=/tmp/new_path_directory/:$PATH
 
 ```
 
