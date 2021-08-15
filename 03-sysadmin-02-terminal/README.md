@@ -48,4 +48,10 @@
 ```
 grep asterisk ast_post_install.sh -c
 ```
-3. 
+3.
+```
+vagrant@vagrant:~$ ps awx
+    PID TTY      STAT   TIME COMMAND
+      1 ?        Ss     0:00 /sbin/init
+```
+4.
