@@ -66,17 +66,33 @@ ls -la >/dev/pts/0
 /dev/pts/0 и /dev/pts/1.
 и на терминале /dev/pts/1 вводим команду
 ```
-echo "Вывод на tty0" >/dev/pts/0
+vagrant@vagrant:~$ echo "Вывод на tty0" >/dev/pts/0
 ```
 и в терминале dev/pts/0 получим сообщение.
 ```
 vagrant@vagrant:~$ Вывод на tty0
 ```
 7.
+```
+vagrant@vagrant:~$ echo netology > /proc/$$/fd/
+0    1    2    255  3
+vagrant@vagrant:~$ echo netology > /proc/$$/fd/^C
+vagrant@vagrant:~$ bash 5>&1
+vagrant@vagrant:~$ echo netology > /proc/$$/fd/
+0    1    2    255  3    5
+vagrant@vagrant:~$ echo netology > /proc/$$/fd/5
+netology
+vagrant@vagrant:~$
+```
+Перенаправили вывод в 5.
+
 
 8.
 
 9.
+```cat /proc/$$/environ -
+```
+переменные рабочего процесса
 
 10.
 `/proc/PID/cmdline` – аргументы командной строки (где PID – идентификатор процесса).  
