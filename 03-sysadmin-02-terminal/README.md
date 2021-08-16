@@ -60,7 +60,7 @@ ls -la >/dev/pts/0
 ```
 5.
 `cat < file.txt > filecopy.txt
-`
+`  
 6. Да, сможем.
 Открываем 2 терминала
 /dev/pts/0 и /dev/pts/1.
