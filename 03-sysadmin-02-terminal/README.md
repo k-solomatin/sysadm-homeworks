@@ -99,10 +99,10 @@ vagrant@vagrant:~$
 `grep sse /proc/cpuinfo`
 
 12.
-` ssh -t localhost tty`
-13.
-Запускаем на одной сессии к примеру пинг
-на другой сессии ищем этот процесс и перехватываем
+` ssh -t localhost tty`  
+13.  
+Запускаем на одной сессии к примеру пинг  
+на другой сессии ищем этот процесс и перехватываем  
 `vagrant@vagrant:~$ sudo su  
 root@vagrant:/home/vagrant# ps -ef | grep -i ping  
 root        1183    1166  0 16:08 pts/1    00:00:00 ping localhost  
