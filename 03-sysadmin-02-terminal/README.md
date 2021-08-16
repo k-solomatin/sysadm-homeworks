@@ -55,9 +55,12 @@ vagrant@vagrant:~$ ps awx
       1 ?        Ss     0:00 /sbin/init
 ```
 4.
-
+```
+ls -la >/dev/pts/0
+```
 5.
-
+```cat < file.txt > filecopy.txt
+```
 6.
 
 7.
