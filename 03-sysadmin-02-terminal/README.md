@@ -99,7 +99,27 @@ vagrant@vagrant:~$
 `grep sse /proc/cpuinfo`
 
 12.
-
+` ssh -t localhost tty`
 13.
+Запускаем на одной сессии к примеру пинг
+на другой сессии ищем этот процесс и перехватываем
+`vagrant@vagrant:~$ sudo su
+root@vagrant:/home/vagrant# ps -ef | grep -i ping
+root        1183    1166  0 16:08 pts/1    00:00:00 ping localhost
+root        1187    1176  0 16:08 pts/0    00:00:00 grep --color=auto -i ping
+root@vagrant:/home/vagrant# reptyr 1183
+64 bytes from localhost (::1): icmp_seq=18 ttl=64 time=0.038 ms
+64 bytes from localhost (::1): icmp_seq=19 ttl=64 time=0.040 ms
+64 bytes from localhost (::1): icmp_seq=20 ttl=64 time=0.042 ms
+64 bytes from localhost (::1): icmp_seq=21 ttl=64 time=0.029 ms
+64 bytes from localhost (::1): icmp_seq=22 ttl=64 time=0.040 ms
+64 bytes from localhost (::1): icmp_seq=23 ttl=64 time=0.044 ms
+64 bytes from localhost (::1): icmp_seq=24 ttl=64 time=0.041 ms
+64 bytes from localhost (::1): icmp_seq=25 ttl=64 time=0.036 ms
+^C
+--- localhost ping statistics ---
+25 packets transmitted, 25 received, 0% packet loss, time 24667ms
+rtt min/avg/max/mdev = 0.021/0.039/0.072/0.010 ms
+root@vagrant:/home/vagrant#`
 
 14.
