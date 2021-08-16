@@ -90,7 +90,7 @@ vagrant@vagrant:~$
 8.
 
 9. `cat /proc/$$/environ` - переменные рабочего процесса
-
+ аналог `cat /proc/self/environ`
 10.
 `/proc/PID/cmdline` – аргументы командной строки (где PID – идентификатор процесса).  
 `/proc/<PID>/exe` - симлинк на исполняемый файл.
