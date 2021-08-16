@@ -61,8 +61,17 @@ ls -la >/dev/pts/0
 5.
 ```cat < file.txt > filecopy.txt
 ```
-6.
-
+6. Да, сможем.
+Открываем 2 терминала
+/dev/pts/0 и /dev/pts/1.
+и на терминале /dev/pts/1 вводим команду
+```
+echo "Вывод на tty0" >/dev/pts/0
+```
+и в терминале dev/pts/0 получим сообщение.
+```
+vagrant@vagrant:~$ Вывод на tty0
+```
 7.
 
 8.
