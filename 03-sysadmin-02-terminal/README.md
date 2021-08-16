@@ -89,8 +89,7 @@ vagrant@vagrant:~$
 
 8.
 
-9.
-```cat /proc/$$/environ -
+9. ```cat /proc/$$/environ -
 ```
 переменные рабочего процесса
 
