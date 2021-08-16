@@ -95,6 +95,8 @@ vagrant@vagrant:~$
 `/proc/<PID>/exe` - симлинк на исполняемый файл.
 
 11.
+`cat /proc/cpuinfo | grep sse`  
+`grep sse /proc/cpuinfo`
 
 12.
 
