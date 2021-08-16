@@ -46,7 +46,7 @@
 1. Команда `cd` это смена текущей директории.
 2. К примеру так
 ```
-grep asterisk ast_post_install.sh -c
+grep some_world some_file -c
 ```
 3.
 ```
@@ -67,6 +67,8 @@ vagrant@vagrant:~$ ps awx
 9.
 
 10.
+/proc/PID/cmdline – аргументы командной строки (где PID – идентификатор процесса).
+/proc/<PID>/exe - симлинк на исполняемый файл.
 
 11.
 
