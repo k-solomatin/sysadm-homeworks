@@ -87,7 +87,7 @@ vagrant@vagrant:~$
 Перенаправили вывод в 5.
 
 
-8. `vagrant@vagrant:~$ echo netology < /proc/$$/fd/5 | cat `
+8. `vagrant@vagrant:~$ echo netology < /proc/$$/fd/5 | cat `  
 `netology`  
 `vagrant@vagrant:~$`  
 
