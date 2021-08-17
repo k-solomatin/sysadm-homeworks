@@ -43,7 +43,8 @@
 ---
 Решение ДЗ.
 ------
-1. Команда `cd` это смена текущей директории.
+1. Команда `cd` это смена текущей директории.  
+Потаму что это команда оболочки командной строки.
 2. К примеру так
 ```
 grep some_world some_file -c
@@ -56,7 +57,7 @@ vagrant@vagrant:~$ ps awx
 ```
 4.
 ```
-ls -la >/dev/pts/0
+ls -la &2>/dev/pts/0
 ```
 5.
 `cat < file.txt > filecopy.txt`  
@@ -71,7 +72,7 @@ vagrant@vagrant:~$ echo "Вывод на tty0" >/dev/pts/0
 ```
 vagrant@vagrant:~$ Вывод на tty0
 ```
-7. 
+7.bash 5>&1 - тут мы вывод(stdout) баша засунули в файл под названием 5
 ```
 vagrant@vagrant:~$ echo netology > /proc/$$/fd/
 0    1    2    255  3
@@ -86,7 +87,9 @@ vagrant@vagrant:~$
 Перенаправили вывод в 5.
 
 
-8. не получилось
+8. ```vagrant@vagrant:~$ echo netology < /proc/$$/fd/5 | cat
+netology
+vagrant@vagrant:~$```
 
 9. `cat /proc/$$/environ` - переменные рабочего процесса  
  аналог `cat /proc/self/environ`
