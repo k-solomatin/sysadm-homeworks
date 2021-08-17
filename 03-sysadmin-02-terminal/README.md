@@ -87,9 +87,9 @@ vagrant@vagrant:~$
 Перенаправили вывод в 5.
 
 
-8. vagrant@vagrant:~$ echo netology < /proc/$$/fd/5 | cat  
-netology  
-vagrant@vagrant:~$  
+8. `vagrant@vagrant:~$ echo netology < /proc/$$/fd/5 | cat `
+`netology`  
+`vagrant@vagrant:~$`  
 
 9. `cat /proc/$$/environ` - переменные рабочего процесса  
  аналог `cat /proc/self/environ`
