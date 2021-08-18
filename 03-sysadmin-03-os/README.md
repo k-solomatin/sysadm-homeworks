@@ -48,6 +48,6 @@
 ---
 Домашка.
 
-1.
-`chdir("/tmp")`
-2. 
+1. `chdir("/tmp")`
+2. `/usr/share/misc/magic.mgc`
+3. 
