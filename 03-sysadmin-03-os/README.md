@@ -50,4 +50,5 @@
 
 1. `chdir("/tmp")`
 2. `/usr/share/misc/magic.mgc`
-3. 
+3. `# find /proc/*/fd -ls 2> /dev/null | awk '/deleted/ {print $11}' | xargs -p -n 1 truncate -s 0`  
+4. 
