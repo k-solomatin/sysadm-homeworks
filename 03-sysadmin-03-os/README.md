@@ -76,10 +76,10 @@ PID    COMM               FD ERR PATH
               that resulted when configuring the kernel (using make xconfig, make config, or similar).  The file contents are compressed;   view or search  them  using  zcat(1)  
               and zgrep(1).  As long as no changes have been made to the following file, the contents of /proc/config.gz are the same as   those provided by:  
 
-                  cat /lib/modules/$(uname -r)/build/.config  
+                  `cat /lib/modules/$(uname -r)/build/.config`  
 
               /proc/config.gz is provided only if the kernel is configured with CONFIG_IKCONFIG_PROC.  
-  
+
 7. `;` - Чтобы команды выполнялись по очереди, независимо от результата выполнения предыдущей.  
 `&&` — выполнять следующую только при успешном выполнении предыдущей  
 Да.
