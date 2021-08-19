@@ -54,8 +54,22 @@
 4. Процесс при завершении освобождает все свои ресурсы (за исключением PID — идентификатора процесса.  
 5.
 PID    COMM               FD ERR PATH
-1      systemd            12   0 /proc/396/cgroup  
-
+1      systemd            12   0 /proc/396/cgroup
+773    vminfo              4   0 /var/run/utmp
+585    dbus-daemon        -1   2 /usr/local/share/dbus-1/system-services
+585    dbus-daemon        18   0 /usr/share/dbus-1/system-services
+585    dbus-daemon        -1   2 /lib/dbus-1/system-services
+585    dbus-daemon        18   0 /var/lib/snapd/dbus-1/system-services/
+605    irqbalance          6   0 /proc/interrupts
+605    irqbalance          6   0 /proc/stat
+605    irqbalance          6   0 /proc/irq/20/smp_affinity
+605    irqbalance          6   0 /proc/irq/0/smp_affinity
+605    irqbalance          6   0 /proc/irq/1/smp_affinity
+605    irqbalance          6   0 /proc/irq/8/smp_affinity
+605    irqbalance          6   0 /proc/irq/12/smp_affinity
+605    irqbalance          6   0 /proc/irq/14/smp_affinity
+605    irqbalance          6   0 /proc/irq/15/smp_affinity
+773    vminfo              4   0 /var/run/utmp
 6.
 7. `;` - Чтобы команды выполнялись по очереди, независимо от результата выполнения предыдущей.  
 `&&` — выполнять следующую только при успешном выполнении предыдущей  
