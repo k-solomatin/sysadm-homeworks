@@ -52,7 +52,7 @@
 2. `/usr/share/misc/magic.mgc`
 3. `find /proc/*/fd -ls 2> /dev/null | awk '/deleted/ {print $11}' | xargs -p -n 1 truncate -s 0`  
 4. Процесс при завершении освобождает все свои ресурсы (за исключением PID — идентификатора процесса.  
-5.
+5. `opensnoop-bpfcc < open`  
 PID    COMM               FD ERR PATH  
 1      systemd            12   0 /proc/396/cgroup  
 773    vminfo              4   0 /var/run/utmp
@@ -70,7 +70,8 @@ PID    COMM               FD ERR PATH
 605    irqbalance          6   0 /proc/irq/14/smp_affinity  
 605    irqbalance          6   0 /proc/irq/15/smp_affinity  
 773    vminfo              4   0 /var/run/utmp  
-6.
+6.  
+
 7. `;` - Чтобы команды выполнялись по очереди, независимо от результата выполнения предыдущей.  
 `&&` — выполнять следующую только при успешном выполнении предыдущей  
 Да.
