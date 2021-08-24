@@ -39,6 +39,21 @@
 ---
 Домашка
 1.  
+vagrant@vagrant:~$ systemctl cat node_exporter  
+# /etc/systemd/system/node_exporter.service  
+[Unit]  
+Description=Node Exporter  
+After=network-online.target  
+
+[Service]  
+User=node_exporter  
+Group=node_exporter  
+Type=simple  
+ExecStart=/usr/local/bin/node_exporter  
+
+[Install]  
+WantedBy=multi-user.target  
+vagrant@vagrant:~$  ß
 2.  
 3.  
 4.  
