@@ -50,7 +50,7 @@
 vagrant@vagrant:~$  
 ```
 5.  nr_open - лимит на кол-во открытых дискрипторов.  
-open files                      (-n) 1024  - это не даст достичь 1048576 этого числа.  
+ulimit -aH - open files (-n) 1024  - это не даст достичь 1048576 этого числа.  
 vagrant@vagrant:~$ cat  /proc/sys/fs/nr_open
 1048576
 vagrant@vagrant:~$
