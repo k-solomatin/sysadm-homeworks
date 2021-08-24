@@ -38,14 +38,14 @@
 
 ---
 Домашка
-1.
-2.
-3.
-4.
-vagrant@vagrant:~$ dmesg | grep virt
-[    0.002990] CPU MTRRs all blank - virtualized system.
-[    0.144935] Booting paravirtualized kernel on KVM
-[    2.436775] systemd[1]: Detected virtualization oracle.
-vagrant@vagrant:~$
-5.
-6.
+1.  
+2.  
+3.  
+4.  
+vagrant@vagrant:~$ dmesg | grep virt  
+[    0.002990] CPU MTRRs all blank - virtualized system.  
+[    0.144935] Booting paravirtualized kernel on KVM  
+[    2.436775] systemd[1]: Detected virtualization oracle.  
+vagrant@vagrant:~$  
+5.  
+6.  
