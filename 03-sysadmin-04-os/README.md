@@ -53,8 +53,11 @@ ExecStart=/usr/local/bin/node_exporter
 
 [Install]  
 WantedBy=multi-user.target  
-vagrant@vagrant:~$  ß
+
 2.  
+# TYPE node_network_receive_packets_total counter
+node_network_receive_packets_total{device="eth0"} 24813
+
 3.  
 4.  
 `vagrant@vagrant:~$ dmesg | grep virt  `
