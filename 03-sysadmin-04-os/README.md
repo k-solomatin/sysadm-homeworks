@@ -37,7 +37,7 @@
 Любые вопросы по решению задач задавайте в чате Slack.
 
 ---
-Домашка
+Домашка  
 1.  
 vagrant@vagrant:~$ systemctl cat node_exporter  
 # /etc/systemd/system/node_exporter.service  
