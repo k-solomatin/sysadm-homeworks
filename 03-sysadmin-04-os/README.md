@@ -65,12 +65,12 @@ node_load15 0.09
 3.  Все по инструкции сделал но через браузер почему то не работает.
 Хотя курлом видно.  ![photo](1.png)
 4.  
-`vagrant@vagrant:~$ dmesg | grep virt  `
+`vagrant@vagrant:~ dmesg | grep virt  `
 ```
 [    0.002990] CPU MTRRs all blank - virtualized system.  
 [    0.144935] Booting paravirtualized kernel on KVM  
 [    2.436775] systemd[1]: Detected virtualization oracle.  
-vagrant@vagrant:~$  
+vagrant@vagrant:~  
 ```
 5.  nr_open - лимит на кол-во открытых дискрипторов.  
 ulimit -aH - open files (-n) 1024  - это не даст достичь 1048576 этого числа.  
