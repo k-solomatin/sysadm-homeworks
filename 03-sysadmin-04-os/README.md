@@ -80,7 +80,7 @@ cat  /proc/sys/fs/nr_open
 6.  Тут вот не понял что нужно сделать.  
 Запускал так `root@vagrant:~ nsenter  sleep 1h`  
 В другой консоли отображается так  
-root@vagrant:~# ps -awx | grep slee  
+root@vagrant:~ ps -awx | grep slee  
   23328 pts/1    S+     0:00 sleep 1h  
   23330 pts/0    S+     0:00 grep --color=auto slee  
 root@vagrant:~  
