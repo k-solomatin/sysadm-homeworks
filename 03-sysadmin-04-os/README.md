@@ -57,8 +57,13 @@ WantedBy=multi-user.target
 2.  
 `#` TYPE node_network_receive_packets_total counter  
 node_network_receive_packets_total{device="eth0"} 24813  
-  
-3.  
+`#` TYPE node_memory_Hugepagesize_bytes gauge  
+node_memory_Hugepagesize_bytes 2.097152e+06  
+`#` HELP node_load15 15m load average.
+`#` TYPE node_load15 gauge
+node_load15 0.09
+3.  Все по инструкции сделал но через браузер почему то не работает.
+Хотя курлом видно.  (1.PNG)
 4.  
 `vagrant@vagrant:~$ dmesg | grep virt  `
 ```
