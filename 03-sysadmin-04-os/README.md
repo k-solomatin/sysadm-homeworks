@@ -63,7 +63,10 @@ node_memory_Hugepagesize_bytes 2.097152e+06
 `#` TYPE node_load15 gauge
 node_load15 0.09  
 3.  Все по инструкции сделал но через браузер почему то не работает.
-Хотя курлом видно.  ![photo](1.png)
+Хотя курлом видно.  ![photo](1.png)  
+UP  
+![photo](netdata.png)
+Поставил, ознакомился.  
 4.  
 `vagrant@vagrant:~ dmesg | grep virt  `
 ```
