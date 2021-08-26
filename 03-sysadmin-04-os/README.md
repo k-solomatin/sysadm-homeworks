@@ -88,7 +88,9 @@ root@vagrant:~ ps -awx | grep slee
   23330 pts/0    S+     0:00 grep --color=auto slee  
 root@vagrant:~  
 UP  
-![photo](ps.png)
+![photo](ps.png)  
+Запустил так на другом терминале.
+![photo](ps2.png)  
 7.  В действительности эта команда является логической бомбой. Она оперирует   определением функции с именем ‘:‘, которая вызывает сама себя дважды: один раз на   переднем плане и один раз в фоне. Она продолжает своё выполнение снова и снова, пока   система не зависнет.  
   [ 1730.958582] cgroup: fork rejected by pids controller in /user.slice/user-1000.slice/session-1.scope  
   `cat` /sys/fs/cgroup/pids/user.slice/user-1000.slice/pids.max
