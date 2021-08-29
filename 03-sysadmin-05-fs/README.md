@@ -119,4 +119,6 @@
 ![photo](ds.png)  
 ![photo](12.png)  
 19.  Готово  
-![photo](ts.png)
+![photo](ts.png)  
+20.  Готово  
+![photo](dest.png)
