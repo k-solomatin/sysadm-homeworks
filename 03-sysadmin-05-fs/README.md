@@ -112,4 +112,10 @@
 15.  Готово  
 ![photo](cel.png)  
 16.  Готово  
-![photo](move.png) 
+![photo](move.png)   
+17.  Готово  
+![photo](fail.png)  
+18.  Готово  
+![photo](ds.png)  
+19.  Готово  
+![photo](ts.png)
