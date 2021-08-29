@@ -107,4 +107,5 @@
 12.  sudo mount /dev/wss/lvol0 /tmp/new/  
 13.  Готово  
 ![photo](wget.png)  
-14.  
+14.  Готово
+![photo](lsblk.png)
