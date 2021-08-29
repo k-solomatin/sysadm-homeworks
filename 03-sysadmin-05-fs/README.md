@@ -108,4 +108,6 @@
 13.  Готово  
 ![photo](wget.png)  
 14.  Готово  
-![photo](lsblk.png)
+![photo](lsblk.png)  
+15.  Готово  
+![photo](cel.png)
