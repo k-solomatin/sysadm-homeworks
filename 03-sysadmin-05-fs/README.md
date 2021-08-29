@@ -91,4 +91,7 @@
 4.  Готово  
 ![photo](fdisk1.png)   
 5.  Готово  
-![photo](sfdisk1.png)
+![photo](sfdisk1.png)  
+6.  Готово  
+![photo](raid1.png)  
+7.  
