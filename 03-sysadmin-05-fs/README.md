@@ -90,5 +90,5 @@
 ![photo](fs1.png)  
 4.  Готово  
 ![photo](fdisk1.png)   
-5.  Готово
+5.  Готово  
 ![photo](sfdisk1.png)
