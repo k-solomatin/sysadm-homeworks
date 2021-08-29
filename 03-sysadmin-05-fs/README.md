@@ -104,4 +104,7 @@
 ![photo](lv.png)  
 11.  Готово  
 ![photo](mkfs.png)   
-12.  
+12.  sudo mount /dev/wss/lvol0 /tmp/new/  
+13.  Готово  
+![photo](wget.png)  
+14.  
