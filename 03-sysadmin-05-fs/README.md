@@ -110,4 +110,6 @@
 14.  Готово  
 ![photo](lsblk.png)  
 15.  Готово  
-![photo](cel.png)
+![photo](cel.png)  
+16.  Готово  
+![photo](move.png) 
