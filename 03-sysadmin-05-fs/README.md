@@ -94,4 +94,5 @@
 ![photo](sfdisk1.png)  
 6.  Готово  
 ![photo](raid1.png)  
-7.  
+7.  Готово  
+![photo](raid0.png)  
