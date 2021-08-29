@@ -89,4 +89,4 @@
 3.  Готово  
 ![photo](fs1.png)  
 4.  Готово  
-![photo](fdisk.png) 
+![photo](fdisk1.png) 
