@@ -101,4 +101,7 @@
 9.  Готово  
 ![photo](vg.png)
 10.  Готово  
-![photo](lv.png) 
+![photo](lv.png)  
+11.  Готово  
+![photo](mkfs.png)   
+12.  
