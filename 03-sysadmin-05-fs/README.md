@@ -99,4 +99,6 @@
 8.  Готово  
 ![photo](pvcreate.png)
 9.  Готово  
-![photo](vg.png) 
+![photo](vg.png)
+10.  Готово  
+![photo](lv.png) 
