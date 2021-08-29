@@ -96,3 +96,5 @@
 ![photo](raid1.png)  
 7.  Готово  
 ![photo](raid0.png)  
+8.  Готово  
+![photo](pvcreate.png) 
