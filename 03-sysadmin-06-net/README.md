@@ -79,4 +79,5 @@ ACK        TIME WAIT    <-   LAST ACK
 ![photo](tcp1.png)  
 tcpdump -x -  в hex  
 ![photo](tcp2.png)  
-14.  
+14.  Встретились ли вам какие-то установленные флаги Internet Protocol - не встретились.  
+  flags — установленные флаги. Обозначаются символами S (SYN), F (FIN), P (PUSH) и R (RST), точка означает отсутствие   установленных флагов   
