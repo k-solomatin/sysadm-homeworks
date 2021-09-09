@@ -75,3 +75,8 @@ ACK        TIME WAIT    <-   LAST ACK
 11.  конечно, TCP. Syslog использует tcp.  
 12.  5 шт. Принадлежат systemd sshd
 ![photo](1234.png)   
+13.  tcpdump -A - выведет содержание в ASCII  
+![photo](tcp1.png)  
+tcpdump -x -  в hex  
+![photo](tcp2.png)  
+14.  
