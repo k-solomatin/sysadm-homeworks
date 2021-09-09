@@ -66,6 +66,5 @@ FIN        FIN WAIT 1   ->   CLOSE WAIT
 FIN-ACC    FIN WAIT 2   ->   CLOSE WAIT   
 ACK        TIME WAIT    <-   LAST ACK  
             CLOSED      ->   CLOSED  
-            ```
-
+```
 8.  
