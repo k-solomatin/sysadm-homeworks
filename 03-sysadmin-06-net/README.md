@@ -60,7 +60,7 @@ UNCONN          0               0                        127.0.0.53%lo:domain   
 4.  8981  
 5.  Нет. SIN начало сесии FIN конец.  
 6.  UNCONN - соединение соединение не установлено.  
-7.  
+7.
              Client           Server        
 FIN        FIN WAIT 1   ->   CLOSE WAIT  
 FIN-ACC    FIN WAIT 2   ->   CLOSE WAIT   
