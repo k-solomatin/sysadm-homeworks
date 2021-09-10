@@ -36,4 +36,5 @@ HOST: stackoverflow.com
 ![photo](as.png)
 Whois  
 ![photo](who.png)
-4.  
+4.  AS42610 тут больше всего задержек.
+![photo](mtr.png)
