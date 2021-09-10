@@ -25,18 +25,24 @@ HOST: stackoverflow.com
 # Ответы
 1.  Заголовок редиректа  
 ![photo](301.png)  
-Вот что говорит браузер.
+2.  Вот что говорит браузер.
 ![photo](302.png)  
 Вот самый долгий 1.93  
 ![photo](303.png)
-2.  Мой адрес  
+3.  Мой адрес  
 ![photo](ip.png)  
-3.  Провайлер Ростелеком  
+4.  Провайлер Ростелеком  
 
 ![photo](as.png)
 Whois  
 ![photo](who.png)
-4.  ![photo](tr.png)
-5.  AS12389 - ROSTELECOM-AS тут больше всего задержек.
+5.  ![photo](tr.png)
+6.  AS12389 - ROSTELECOM-AS тут больше всего задержек.
 ![photo](mtr.png)  
-6.  
+7.  ns1-4.zdns.google
+![photo](dig.png)
+8. PTR записи
+;; ANSWER SECTION:  
+dns.google.		654	IN	A	8.8.4.4  
+dns.google.		654	IN	A	8.8.8.8  
+  ![photo](ptr.png)
