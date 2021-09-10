@@ -31,4 +31,9 @@ HOST: stackoverflow.com
 ![photo](303.png)
 2.  Мой адрес  
 ![photo](ip.png)  
-3.  
+3.  Провайлер Ростелеком  
+
+![photo](as.png)
+Whois  
+![photo](who.png)
+4.  
