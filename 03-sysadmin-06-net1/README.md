@@ -29,4 +29,6 @@ HOST: stackoverflow.com
 ![photo](302.png)  
 Вот самый долгий 1.93  
 ![photo](303.png)
-2.  
+2.  Мой адрес  
+![photo](ip.png)  
+3.  
