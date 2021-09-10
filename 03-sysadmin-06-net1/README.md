@@ -36,5 +36,7 @@ HOST: stackoverflow.com
 ![photo](as.png)
 Whois  
 ![photo](who.png)
-4.  AS42610 тут больше всего задержек.
-![photo](mtr.png)
+4.  ![photo](tr.png)
+5.  AS12389 - ROSTELECOM-AS тут больше всего задержек.
+![photo](mtr.png)  
+6.  
