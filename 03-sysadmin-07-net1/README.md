@@ -16,6 +16,8 @@
 7.  Как проверить ARP таблицу в Linux, Windows? Как очистить ARP кеш полностью? Как из ARP таблицы удалить только один нужный IP?  
 
 # Решение  
+
+
 1.  Вот список  
 ![photo](ip.png)  
 ifconfig  
@@ -41,3 +43,28 @@ ifconfig eth0.5 192.168.1.100 netmask 255.255.255.0 broadcast 192.168.1.255 up
 -- (802.3ad) — обеспечивает агрегацию на основании протокола 802.3ad.  
 -- (balance-tlb) — в этом режиме входящий трафик приходит только на один «активный» интерфейс, исходящий же распределяется по всем интерфейсам.  
 -- (balance-alb) — балансирует исходящий трафик как tlb, а так же входящий IPv4 трафик используя ARP.  
+mode 1-6 соответственно!
+Для балансировки balance-rr, balance-xor, balance-tlb, balance-alb.  
+root@bond-srv:~# cat /etc/network/interfaces
+# The loopback network interface
+auto lo
+iface lo inet loopback
+
+# The primary network interface
+auto bond0 eth0 eth1
+# настроим параметры бонд-интерфейса
+iface bond0 inet static
+# адрес, маска, шлюз. (можно еще что-нибудь по вкусу)
+        address 10.0.0.11
+        netmask 255.255.255.0
+        gateway 10.0.0.254
+        # определяем подчиненные (объединяемые) интерфейсы
+        bond-slaves eth0 eth1
+        # задаем тип бондинга
+        bond-mode balance-alb
+        # интервал проверки линии в миллисекундах
+bond-miimon 100
+        # Задержка перед установкой соединения в миллисекундах
+bond-downdelay 200
+# Задержка перед обрывом соединения в миллисекундах
+        bond-updelay 200
