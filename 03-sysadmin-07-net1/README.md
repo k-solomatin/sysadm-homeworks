@@ -45,7 +45,7 @@ ifconfig eth0.5 192.168.1.100 netmask 255.255.255.0 broadcast 192.168.1.255 up
 -- (balance-alb) — балансирует исходящий трафик как tlb, а так же входящий IPv4 трафик используя ARP.  
 mode 1-6 соответственно!
 Для балансировки balance-rr, balance-xor, balance-tlb, balance-alb.  
-root@bond-srv:~# cat /etc/network/interfaces
+cat /etc/network/interfaces
 -- The loopback network interface
 auto lo
 iface lo inet loopback
