@@ -20,6 +20,6 @@
 1.  Протокол обнаружения соседей (англ. Neighbor Discovery Protocol, NDP ) — протокол из набора протоколов TCP/IP, используемый совместно с IPv6.  
 ```ip neighbor```
 ```ip ndp -an```
-```netsh interface ipv6 show neighbors level=verbose```
-
+```netsh interface ipv6 show neighbors level=verbose
+```
 2.  
