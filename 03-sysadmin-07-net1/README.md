@@ -46,25 +46,25 @@ ifconfig eth0.5 192.168.1.100 netmask 255.255.255.0 broadcast 192.168.1.255 up
 mode 1-6 соответственно!
 Для балансировки balance-rr, balance-xor, balance-tlb, balance-alb.  
 root@bond-srv:~# cat /etc/network/interfaces
-# The loopback network interface
+-- The loopback network interface
 auto lo
 iface lo inet loopback
 
-# The primary network interface
+-- The primary network interface
 auto bond0 eth0 eth1
-# настроим параметры бонд-интерфейса
+-- настроим параметры бонд-интерфейса
 iface bond0 inet static
-# адрес, маска, шлюз. (можно еще что-нибудь по вкусу)
+-- адрес, маска, шлюз. (можно еще что-нибудь по вкусу)
         address 10.0.0.11
         netmask 255.255.255.0
         gateway 10.0.0.254
-        # определяем подчиненные (объединяемые) интерфейсы
+        -- определяем подчиненные (объединяемые) интерфейсы
         bond-slaves eth0 eth1
-        # задаем тип бондинга
+        -- задаем тип бондинга
         bond-mode balance-alb
-        # интервал проверки линии в миллисекундах
+        -- интервал проверки линии в миллисекундах
 bond-miimon 100
-        # Задержка перед установкой соединения в миллисекундах
+        -- Задержка перед установкой соединения в миллисекундах
 bond-downdelay 200
-# Задержка перед обрывом соединения в миллисекундах
+-- Задержка перед обрывом соединения в миллисекундах
         bond-updelay 200
