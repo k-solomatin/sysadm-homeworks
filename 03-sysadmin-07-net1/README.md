@@ -17,7 +17,7 @@
 
 # Решение  
 1.  Вот список  
-![photo](ip.png)
+![photo](ip.png)  
 ifconfig  
 ipconfig   
 
