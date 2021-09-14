@@ -16,10 +16,16 @@
 7.  Как проверить ARP таблицу в Linux, Windows? Как очистить ARP кеш полностью? Как из ARP таблицы удалить только один нужный IP?  
 
 # Решение  
+1.  Вот список  
+![photo](ip.png)
+ifconfig  
+ipconfig   
 
-1.  Протокол обнаружения соседей (англ. Neighbor Discovery Protocol, NDP ) — протокол из набора протоколов TCP/IP, используемый совместно с IPv6.  
+
+
+2.  Протокол обнаружения соседей (англ. Neighbor Discovery Protocol, NDP ) — протокол из набора протоколов TCP/IP, используемый совместно с IPv6.  
 ip neighbor  
 ip ndp -an  
 netsh interface ipv6 show neighbors level=verbose  
 
-2.  
+3.  
