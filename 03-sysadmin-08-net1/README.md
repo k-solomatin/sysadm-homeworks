@@ -27,7 +27,10 @@ show bgp x.x.x.x/32
 #  Решение
 1.  
 ![photo](bgp.png)  
-2.  
+2.  ![photo](dummy.png)  
+интерфейсы в дауне и почему то не поднимаются  
+![photo](down.png)  
+![photo](up.png)    
 3.  ![photo](port.png)   
 4.  ![photo](port.png)   
 5.  
