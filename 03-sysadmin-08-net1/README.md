@@ -28,6 +28,6 @@ show bgp x.x.x.x/32
 1.  
 ![photo](bgp.png)  
 2.  
-3.  
-4.  
+3.  ![photo](port.png)   
+4.  ![photo](port.png)   
 5.  
