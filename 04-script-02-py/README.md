@@ -51,7 +51,7 @@
 
 import os
 
-bash_command = ["cd ~/devops3-netology", "git status"]
+bash_command = ["cd ~/sysadm-homeworks", "git status"]
 result_os = os.popen(' && '.join(bash_command)).read()
 #is_change = False
 for result in result_os.split('\n'):
