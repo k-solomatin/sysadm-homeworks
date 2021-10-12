@@ -15,3 +15,8 @@
 ## Домашка
 1.  
 ![photo](Bitwarden.png)  
+
+2.  
+3.  
+4.  
+![photo](tls.png) 
