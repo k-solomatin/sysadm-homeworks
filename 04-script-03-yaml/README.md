@@ -8,7 +8,7 @@
         "elements" :[
             { "name" : "first",
             "type" : "server",
-            "ip" : 7175 
+            "ip" : 7175
             },
             { "name" : "second",
             "type" : "proxy",
@@ -33,8 +33,16 @@
 
 ---
 
-### Как оформить ДЗ?
-
-Выполненное домашнее задание пришлите ссылкой на .md-файл в вашем репозитории.
-
----
+### Домашка
+1.  
+```json
+1: { "info" : "Sample JSON output from our service\t",
+2:     "elements" :[
+3:         { "name" : "first",
+4:         "type" : "server",
+5:         "ip" : 7175
+6:         },
+7:         { "name" : "second",
+8:         "type" : "proxy",
+9:         "ip": "71.78.22.43"
+```
