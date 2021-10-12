@@ -44,8 +44,9 @@
 c = "a+b" - Это просто текст  
 b = "1+3" - вывели просто значения, но не сложение   
 e = "3"   - тут все норм, вывели значения и сложиили  
-2.  
-while (( 1 == 1 ))  
+2.
+```bash
+while ((1==1))  
 	 do  
 			 curl https://localhost:4757  
 			 if (($? != 0))  
@@ -54,9 +55,9 @@ while (( 1 == 1 ))
 			 else exit  
 			 fi  
 			 sleep 5  
-
+```
 3.  
-
+```bash
 hosts=(192.168.0.1 173.194.222.113 87.250.250.242)  
 timeout=5  
 for i in {1..5}  
@@ -64,12 +65,13 @@ do
 date >>hosts.log  
     for h in ${hosts[@]}  
     do  
-	curl -Is --connect-timeout $timeout $h:80 >/dev/null  
+			curl -Is --connect-timeout $timeout $h:80 >/dev/null  
         echo "    check" $h status=$? >>hosts.log  
     done  
 done  
-
+```
 4.  
+```bash
 hosts=(192.168.0.1 173.194.222.113 87.250.250.242)  
 timeout=5  
 res=0  
@@ -86,3 +88,4 @@ do
 	fi  
     done  
 done  
+```
