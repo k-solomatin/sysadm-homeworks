@@ -61,8 +61,8 @@ i     = 1
 wait  = 2 # интервал проверок в секундах
 srv   = {'drive.google.com':'0.0.0.0', 'mail.google.com':'0.0.0.0', 'google.com':'0.0.0.0'}
 init  = 0
-fpath = "/home/alex/python/" #путь к файлам конфигов
-flog  = "/home/alex/python/error.log" #путь к файлам логов
+fpath = "/home/kirillsolomatin/python/" #путь к файлам конфигов
+flog  = "/home/kirillsolomatin/python/error.log" #путь к файлам логов
 
 # start script workflow
 print('*** start script ***')
@@ -79,9 +79,8 @@ for host in srv:
 			# вывод ошибок в файл
 			with open(flog,'a') as fl:
 				print(str(dt.datetime.now().strftime("%Y-%m-%d %H:%M:%S")) +' [ERROR] ' + str(host) +' IP mistmatch: '+srv[host]+' '+ip,file=fl)
-			#******************************************
-			# решение 4.3 - п2
-			#vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv
+			#
+			# решение задачи 2!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 			#  в отдельные файлы
 			# json
 			with open(fpath+host+".json",'w') as jsf:
@@ -102,7 +101,7 @@ for host in srv:
 		with open(fpath+"services_conf.yaml",'w') as ymf:
 			yaml_data= yaml.dump(data)
 			ymf.write(yaml_data)
-			#^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+			# конец задачи 2!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 		srv[host]=ip
 #print(i) # выведем шаг итерации для отладки
 i+=1 # счетчик итераций для отладки, закомментировать для бесконечного цикла
