@@ -46,7 +46,7 @@
 	* Как получить для переменной c значение 12? -- c=str(a)+b
 	* Как получить для переменной c значение 3? -- c=a+int(b)  
 2.  
-```python
+```python  
 #!/usr/bin/env python3
 
 import os
@@ -59,5 +59,5 @@ for result in result_os.split('\n'):
         prepare_result = result.replace('\tизменено:   ', '')
         print(prepare_result)
 #        break
-```
+```  
 3.  
