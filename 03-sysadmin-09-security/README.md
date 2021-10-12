@@ -13,3 +13,5 @@
 Соберите дамп трафика утилитой tcpdump в формате pcap, 100 пакетов. Откройте файл pcap в Wireshark.
 
 ## Домашка
+1.  
+![photo](Bitwarden.png)  
