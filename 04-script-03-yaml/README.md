@@ -65,10 +65,7 @@ fpath = "/home/kirillsolomatin/python/" #путь к файлам конфиго
 flog  = "/home/kirillsolomatin/python/error.log" #путь к файлам логов
 
 # start script workflow
-print('*** start script ***')
 print(srv)
-print('********************')
-
 while 1 == 1 : # для бесконечного цикла, else  установить условие i >= чилу треуемых итераций
 for host in srv:
 	is_error = False
