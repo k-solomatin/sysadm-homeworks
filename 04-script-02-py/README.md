@@ -98,9 +98,7 @@ wait = 2 # интервал проверок в секундах
 srv = {'drive.google.com':'0.0.0.0', 'mail.google.com':'0.0.0.0', 'google.com':'0.0.0.0'}
 init=0
 
-print('*** start script ***')
 print(srv)
-print('********************')
 
 while 1==1 : #отладочное число проверок
   for host in srv:
