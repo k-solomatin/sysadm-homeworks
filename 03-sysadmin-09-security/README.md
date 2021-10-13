@@ -20,6 +20,9 @@
 3.  
 ![photo](test.png)
 4.  
-![photo](tls.png)ß
+![photo](tls.png)
 5.  Ключом пользуюсь постоянно.  
-![photo](ssh.png)
+![photo](ssh.png)  
+6.  
+На все сервера хожу по таому принципу
+![photo](v1.png)
